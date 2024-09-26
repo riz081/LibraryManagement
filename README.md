@@ -34,7 +34,6 @@ This is a simple RESTful API for a Library Management System built with Laravel 
 
     
 ### Write-up (One Page)
-You can create a document titled `design_and_performance_tuning.md` that includes:
 
 **Design Choices:**
 - **MVC Architecture**: Followed the MVC pattern for separation of concerns, ensuring that the application is maintainable and scalable.
