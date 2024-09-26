@@ -4,9 +4,10 @@ This is a simple RESTful API for a Library Management System built with Laravel 
 
 ## Table of Contents
 - [Installation](#installation)
-- [Running the Application](#running-the-application)
-- [Unit Tests](#unit-tests)
-- [Design Choices](#design-choices)
+- [Set Up the Application](#setup)
+- [Running the Application](#running)
+- [Unit Tests](#testing)
+- [Write Up](#write-up)
 
 ## Installation
 
@@ -19,18 +20,24 @@ This is a simple RESTful API for a Library Management System built with Laravel 
 2. Install dependencies:
    composer install
 
-3. Set up the environment file:
+## Setup
+
+1. Set up the environment file:
    cp .env.example .env
    php artisan key:generate
    
-5. Run migrations:
+2. Run migrations:
    php artisan migrate
 
-7. Run service:
+## Running
+
+1. Run service:
    php artisan serve
 
-9. Run Unit Testing:
-    php artisan test
+## Testing
+
+1. Run Unit Testing:
+   php artisan test
 
     
 ### Write-up
