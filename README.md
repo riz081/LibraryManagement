@@ -18,26 +18,36 @@ This is a simple RESTful API for a Library Management System built with Laravel 
    ```
    
 2. Install dependencies:
+   ```bash
    composer install
+   ```
 
 ## Setup
 
 1. Set up the environment file:
+   ```bash
    cp .env.example .env
    php artisan key:generate
+   ```
    
-2. Run migrations:
+3. Run migrations:
+   ```bash
    php artisan migrate
+   ```
 
 ## Running
 
 1. Run service:
+   ```bash
    php artisan serve
+   ```
 
 ## Testing
 
 1. Run Unit Testing:
+   ```bash
    php artisan test
+   ```
 
     
 ### Write-up
