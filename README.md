@@ -33,7 +33,7 @@ This is a simple RESTful API for a Library Management System built with Laravel 
     php artisan test
 
     
-### Write-up (One Page)
+### Write-up
 
 **Design Choices:**
 - **MVC Architecture**: Followed the MVC pattern for separation of concerns, ensuring that the application is maintainable and scalable.
